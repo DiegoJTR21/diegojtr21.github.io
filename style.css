@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #7DA3A1;
+    font-weight: 100;
+}
+
+html {
+    background-color: #324851;
+}
+
+body {
+    background-color: #34675C;
+    margin:50px auto;
+    justify-content: center;
+    width: 65%;
+}
+footer {
+    background-color: #021C1E;
+    height: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #86AC41;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px 15px;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav */
+
+.nav-main {
+    display: flex;
+    height: 60px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 0px 10px;
+}
+
+.nav-main a:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-main a{
+    padding: 2px 0;
+}
+
+/* Article */
+
+/* Bibliografia */
+
+.yo-sec h1 {
+    margin: 10px 15px;
+}
+
+.yo-sec p {
+    margin: 0px 15px;
+}
+
+/* Paleta de Colores */
+
+.paleta-color-sec h2 {
+    margin: 10px 15px;
+}
+
+.paleta-color {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.paleta-color div {
+    border: 3px solid white;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.paleta-color p {
+    color: white;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+}
+
+.pc1 {
+    background-color: #324851;
+}
+
+.pc2 {
+    background-color: #86AC41
+}
+
+.pc3 {
+    background-color: #34675C;
+}
+
+.pc4 {
+    background-color: #7DA3A1;
+}
