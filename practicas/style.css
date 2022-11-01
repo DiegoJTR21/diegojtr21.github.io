@@ -1,0 +1,95 @@
+:root {
+    --mist: #90AFC5;
+    --stone: #336B87;
+    --shadown: #2A3132;
+    --autumn-foliage: #763626;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: var(--shadown);
+    margin: 0 auto;
+    color: var(--mist);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--mist);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Nav */
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--stone);
+}
+
+.nav-main .nav-img img {
+    width: 50px;
+    display: block;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul, li {
+    padding: 10px;
+}
+
+.nav-main a {
+    padding: 2px 1px;
+}
+
+.nav-main a:hover {
+    border-bottom: 1px solid var(--stone);
+}
+
+.nav-main .btn-l {
+    padding: 15px 10px 15px 10px;
+
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: linear-gradient(to right, var(--stone), var(--autumn-foliage));
+    border: none;
+    color: var(--text-color);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.nav-main .btn-login a:hover {
+    border-bottom: none;
+}
+
+.nav-menu p {
+    align-items: center;
+}
